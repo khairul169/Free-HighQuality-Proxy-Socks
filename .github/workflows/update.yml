@@ -2,7 +2,7 @@ name: Proxy Auto System
 
 on:
   schedule:
-    - cron: '0 */2 * * *' # Berjalan otomatis setiap 2 jam agar stabil
+    - cron: '0 * * * *' # Berjalan otomatis setiap 2 jam agar stabil
   workflow_dispatch: # Tombol manual di tab Actions
 
 jobs:
